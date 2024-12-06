@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "E:\\_Projects\\WebGL\\Games\\NoobTuts\\arkanoid-2d-noobtuts-port-box2dwasm-webgl-js\\public\\assets\\sprites",
+  "images": [
+    {
+      "name": "ball.png",
+      "path": "E:/_Projects/WebGL/Games/NoobTuts/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/assets-dev/free-texture-packer/ball.png",
+      "folder": ""
+    },
+    {
+      "name": "block_blue.png",
+      "path": "E:/_Projects/WebGL/Games/NoobTuts/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/assets-dev/free-texture-packer/block_blue.png",
+      "folder": ""
+    },
+    {
+      "name": "block_green.png",
+      "path": "E:/_Projects/WebGL/Games/NoobTuts/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/assets-dev/free-texture-packer/block_green.png",
+      "folder": ""
+    },
+    {
+      "name": "block_pink.png",
+      "path": "E:/_Projects/WebGL/Games/NoobTuts/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/assets-dev/free-texture-packer/block_pink.png",
+      "folder": ""
+    },
+    {
+      "name": "block_red.png",
+      "path": "E:/_Projects/WebGL/Games/NoobTuts/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/assets-dev/free-texture-packer/block_red.png",
+      "folder": ""
+    },
+    {
+      "name": "block_yellow.png",
+      "path": "E:/_Projects/WebGL/Games/NoobTuts/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/assets-dev/free-texture-packer/block_yellow.png",
+      "folder": ""
+    },
+    {
+      "name": "border_left.png",
+      "path": "E:/_Projects/WebGL/Games/NoobTuts/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/assets-dev/free-texture-packer/border_left.png",
+      "folder": ""
+    },
+    {
+      "name": "border_right.png",
+      "path": "E:/_Projects/WebGL/Games/NoobTuts/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/assets-dev/free-texture-packer/border_right.png",
+      "folder": ""
+    },
+    {
+      "name": "border_top.png",
+      "path": "E:/_Projects/WebGL/Games/NoobTuts/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/assets-dev/free-texture-packer/border_top.png",
+      "folder": ""
+    },
+    {
+      "name": "hexagon_pattern.png",
+      "path": "E:/_Projects/WebGL/Games/NoobTuts/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/assets-dev/free-texture-packer/hexagon_pattern.png",
+      "folder": ""
+    },
+    {
+      "name": "racket.png",
+      "path": "E:/_Projects/WebGL/Games/NoobTuts/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/assets-dev/free-texture-packer/racket.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "texture",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "JSON (hash)",
+    "fileName": "pack-result",
+    "savePath": "E:\\_Projects\\WebGL\\Games\\NoobTuts\\arkanoid-2d-noobtuts-port-box2dwasm-webgl-js\\public\\assets\\sprites",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": true,
+    "padding": 0,
+    "extrude": 1,
+    "allowRotation": false,
+    "allowTrim": false,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsBin",
+    "packerMethod": "BestShortSideFit"
+  }
+}

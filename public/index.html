@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Arkanoid port from NoobTuts using @box2d/core, WebGL 1.0 and JavaScript</title>
+    <style></style>
+</head>
+
+<body style="caret-color: transparent;">
+    <div id="topBorder0" style="position: absolute; left: 200px; top: 20px; color: white; font-size: 26px;">separation</div>
+    <div id="topBorder1" style="position: absolute; left: 200px; top: 50px; color: white; font-size: 26px;">separation</div>
+
+    <div id="block0" style="position: absolute; left: 200px; top: 150px; color: white; font-size: 26px;">separation</div>
+    <div id="block1" style="position: absolute; left: 200px; top: 180px; color: white; font-size: 26px;">separation</div>
+
+    <div id="racket0" style="position: absolute; left: 220px; top: 280px; color: white; font-size: 26px;">separation</div>
+    <div id="racket1" style="position: absolute; left: 220px; top: 310px; color: white; font-size: 26px;">separation</div>
+
+    <canvas id="renderCanvas" width="350" height="350"></canvas><br>
+
+    <p>Ball X position: <span id="ballXPos">0</span></p>
+
+    <label for="blockYPos">Block Y position:</label>
+    <input type="number" id="blockYPos" step="0.001" value="0"><br>
+    <input type="range" id="yPosSlider" min="-100.0" max="100.0" step="0.001" value="0">
+
+    <p>The separation for the top border has -0.0001953 after a few seconds but it must be -0.015</p>
+
+    <!-- Since import maps are not yet supported by all browsers, its is
+        necessary to add the polyfill es-module-shims.js -->
+    <script async src="https://unpkg.com/es-module-shims@1.7.3/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "@box2d/core": "https://cdn.jsdelivr.net/npm/@box2d/core@0.10.0/+esm",
+                "gl-matrix": "https://cdn.jsdelivr.net/npm/gl-matrix@3.4.3/+esm"
+            }
+        }
+    </script>
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
