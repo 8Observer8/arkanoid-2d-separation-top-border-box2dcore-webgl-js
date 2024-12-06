@@ -1,6 +1,6 @@
 The separation for the top border has -0.0001953 after a few seconds but it must be -0.015
 
-[Playground](https://8observer8.github.io/webgl10-js/2d-games/arkanoid-2d-noobtuts-port-box2dwasm-webgl-js/)
+[Playground](https://plnkr.co/edit/97Up0UFbP7mEHhBo?preview)
 
 Instruction for building and running the project in debug and release using Rollup:
 
